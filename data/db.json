@@ -1,0 +1,52 @@
+{
+  "accounts": [
+    {
+      "id": "j4wMjDx8p",
+      "title": "收拾收拾",
+      "time": "2025-10-03",
+      "type": "1",
+      "account": "9999",
+      "remarks": "11"
+    },
+    {
+      "id": "K81Fs4jf1",
+      "title": "说说话",
+      "time": "2025-10-21",
+      "type": "-1",
+      "account": "1111",
+      "remarks": "22"
+    },
+    {
+      "id": "3WNxnrRVi",
+      "title": "收货手机",
+      "time": "2025-10-20",
+      "type": "-1",
+      "account": "6677",
+      "remarks": "实时"
+    },
+    {
+      "id": "5v1Ah_Isv",
+      "title": "卖东西",
+      "time": "2025-10-30",
+      "type": "-1",
+      "account": "7",
+      "remarks": "44"
+    },
+    {
+      "id": "Lqmz0lKO5",
+      "title": "买菜",
+      "time": "2025-10-17",
+      "type": "1",
+      "account": "800",
+      "remarks": "1"
+    },
+    {
+      "id": "q_DwgW6WG",
+      "title": "sss",
+      "time": "2025-10-03",
+      "type": "-1",
+      "account": "6",
+      "remarks": "98"
+    }
+  ]
+}
