@@ -30,12 +30,12 @@ module.exports = function (success, error) {
   });
 
   // 设置连接错误的回调
-  mongoose.connection.on('error', () => {
+  mongoose.connection.once('error', () => {
     error();
   });
 
   //设置连接关闭的回调
-  mongoose.connection.on('close', () => {
+  mongoose.connection.once('close', () => {
     console.log('连接关闭');
   });
 }

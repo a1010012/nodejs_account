@@ -30,9 +30,6 @@ router.post('/login', async (req, res) => {
                 data: null
             });
         }
-        //写入session
-        // req.session.username = data.username;
-        // req.session._id = data._id;
         // 创建token
         let token = jwt.sign({
             username: data.username,

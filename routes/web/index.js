@@ -1,7 +1,6 @@
 var express = require('express');
 const moment = require('moment')
 const shortid = require('shortid')
-const db = require('../../data/db.json')
 const AccountModel = require('../../models/AccountModel')
 const checkLoginMiddleware = require('../../middlewares/checkLoginMiddleware')
 //创建路由对象
@@ -39,7 +38,7 @@ router.post('/account', checkLoginMiddleware, async (req, res) => {
     // 2. 转换字段类型（关键！）
     const type = Number(req.body.type); // 字符串转Number
     const account = Number(req.body.account); // 字符串转Number
-    const time = moment(req.body.time).toDate().format('YYYY-MM-DD'); // 确保时间格式正确
+    const time = moment(req.body.time); // 确保时间格式正确
     let id = shortid.generate();
     // 3. 验证转换结果（调试用）
     console.log('转换后的数据：', { type, account, time });

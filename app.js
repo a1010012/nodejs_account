@@ -6,7 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/web/index');
 const authRouter = require('./routes/web/auth.js');
-const authApiRouter = require('../accounts/routes/api/auth.js')
+const authApiRouter = require('../nodejs_account/routes/api/auth.js')
 //导入account接口的路由文件
 const accountRouter = require('./routes/api/account')
 //导入express-session

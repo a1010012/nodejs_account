@@ -21,7 +21,7 @@ module.exports = (req, res, next) => {
             return res.json({
                 code: '2004',
                 msg: '校验失败',
-                datta: null
+                data: null
             })
         }
     })
